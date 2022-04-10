@@ -3,4 +3,6 @@ div {
 }
 span {
   display: block;
+  height: 100px;
+  width: 200px;
 }
