@@ -8,7 +8,7 @@ label {
   color: green;
   font-size: 100px;
 }
-h2:hover {
+h1:hover {
   color: blue;
 }
 a:visited {
