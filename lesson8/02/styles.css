@@ -2,9 +2,11 @@
   box-sizing: border-box;
   background-color: bisque;
   font-size: 24px;
+  height: 170px;
+  width: 480px;
   margin: 50px 100px;
   padding: 20px;
   border-width: 10px 20px;
   border-style: solid solid dashed dashed;
-  border-color: firebrick chartreuse burlywood aqua;
+  border-color: firebrick chartreuse burlywood aquamarine;
 }
