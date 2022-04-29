@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .theOne {
   background-color: bisque;
   font-size: 24px;
