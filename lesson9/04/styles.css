@@ -21,10 +21,10 @@
   background-color: beige;
 }
 .nav-list {
-  line-height: 50%;
+  line-height: 16px;
 }
 .head {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
