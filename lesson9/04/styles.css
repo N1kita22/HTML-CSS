@@ -9,7 +9,7 @@
   position: fixed;
 }
 .nav-item {
-  line-height: 40px;
+  line-height: center;
   display: inline-block;
   margin-left: 16px;
   color: white;
@@ -21,9 +21,7 @@
   background-color: beige;
 }
 .nav-list {
-  margin: 0;
-  padding: 0;
-  font-size: 0;
+  line-height: 50%;
 }
 .head {
   position: absolute;
