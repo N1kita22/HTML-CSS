@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 .header {
   z-index: 1;
   height: 40px;
