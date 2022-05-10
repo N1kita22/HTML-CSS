@@ -10,7 +10,7 @@
 }
 .nav-item {
   line-height: center;
-  display: inline-block;
+  float: left;
   margin-left: 16px;
   color: white;
   font-size: 16px;
