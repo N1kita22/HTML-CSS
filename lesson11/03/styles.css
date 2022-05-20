@@ -17,6 +17,7 @@
   bottom: -151px;
   background-color: lightcyan;
   color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -29,6 +30,7 @@
 }
 .dropdown:hover .menu-list {
   display: block;
+  opacity: 1;
 }
 .menu-list:hover .menu-item {
   color: ghostwhite;
