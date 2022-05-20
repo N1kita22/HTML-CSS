@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.dropdown {
+  margin: 16px;
+  position: relative;
+  display: inline-block;
+  background-color: darkgreen;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.menu-list {
+  position: absolute;
+  bottom: -151px;
+  background-color: lightcyan;
+  color: black;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  min-width: 120px;
+  z-index: 1;
+  display: none;
+}
+.menu-item {
+  padding: 16px;
+}
+.dropdown:hover .menu-list {
+  display: block;
+}
+.menu-list:hover .menu-item {
+  color: ghostwhite;
+}
