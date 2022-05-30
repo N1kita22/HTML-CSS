@@ -35,6 +35,7 @@
 }
 
 .dropdown:hover .menu-list {
+  position: absolute;
   display: block;
 }
 .menu-button:hover {
