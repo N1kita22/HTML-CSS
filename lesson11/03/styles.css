@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 .dropdown {
-  position: relative;
-  margin: 8px;
+  margin: 16px;
+  display: block;
+  height: 51px;
 }
 
 .menu-button {
@@ -14,12 +15,11 @@
   font-size: 16px;
   color: white;
   cursor: pointer;
-  margin: 8px;
 }
 .menu-list {
   position: absolute;
-  top: 58px;
-  left: 8px;
+  top: 67px;
+  left: 16px;
   margin: 0;
   padding: 0;
   list-style-type: none;
