@@ -4,8 +4,10 @@
 .gallery {
   display: flex;
   overflow-y: auto;
-  cursor: all-scroll;
 }
 .thumb {
   margin: 8px;
+}
+.gallery:hover {
+  cursor: all-scroll;
 }
