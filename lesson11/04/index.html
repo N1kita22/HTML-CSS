@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+      }
+      body {
+        position: relative;
+      }
+      .text {
+        margin: 16px;
+        border-bottom: 1px dotted #000;
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+      }
+      .tooltip {
+        left: 0;
+        visibility: hidden;
+        background-color: grey;
+        border-radius: 4px;
+        padding: 8px;
+        color: white;
+        position: absolute;
+        z-index: 1;
+        bottom: -40px;
+      }
+      .text:hover .tooltip {
+        visibility: visible;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="text">
+      Hover over me
+      <span class="tooltip">I'm a tooltip</span>
+    </div>
+  </body>
+</html>
