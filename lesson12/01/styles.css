@@ -1,6 +1,9 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  /* margin: 32px; */
+}
+section {
   margin: 32px;
 }
 h1 {
