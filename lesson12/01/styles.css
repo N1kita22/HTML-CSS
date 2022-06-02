@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
+  margin: 32px;
 }
 html {
-  margin: 32px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
