@@ -11,5 +11,6 @@ div {
   height: 200px;
   background-color: coral;
   text-align: center;
+  color: white;
   line-height: 200px;
 }
