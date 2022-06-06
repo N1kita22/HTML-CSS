@@ -1,0 +1,26 @@
+.main-image {
+  display: block;
+  margin: 50px auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.gallery {
+  display: flex;
+}
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+.opacity-image {
+  filter: opacity(50%);
+}
+.card-text {
+  text-align: center;
+  line-height: 30px;
+}
+.blur-image {
+  filter: blur(4px);
+}
+.invert-image {
+  filter: invert(100%);
+}
