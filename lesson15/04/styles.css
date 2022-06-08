@@ -1,7 +1,7 @@
 .image-container {
-  position: absolute;
-  left: calc(50% - 250px);
+  position: relative;
 }
+
 .image {
   max-width: 100%;
   display: block;
