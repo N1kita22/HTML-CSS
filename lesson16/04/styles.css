@@ -20,9 +20,6 @@
   text-transform: uppercase;
   text-align: center;
 }
-.form-control {
-  margin-top: 8px;
-}
 .form-label {
   margin-bottom: 4px;
 }
@@ -33,6 +30,7 @@
   border: 1px solid #808080;
   padding: 4px;
   outline: none;
+  margin-bottom: 8px;
 }
 .submit-button {
   width: 100%;
@@ -42,12 +40,11 @@
   text-transform: uppercase;
   border-radius: 4px;
   margin-top: 16px;
-  border: none;
 }
 
 .form-input:invalid {
   border: 3px solid #ff0000;
 }
-.form-input[name='userName']:empty {
+/* .form-input[name='userName']:empty {
   border: 3px solid #ff0000;
-}
+} */
