@@ -25,6 +25,7 @@
 }
 .form-label {
   margin-bottom: 4px;
+  display: inline-block;
 }
 .form-input {
   width: 100%;
