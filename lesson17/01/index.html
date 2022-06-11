@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tables</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      table {
+        width: 500px;
+        margin: 16px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: right;
+      }
+      td,
+      th {
+        padding: 4px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Shopping list
+      </caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Milk</th>
+          <th>3</th>
+          <th>$2</th>
+          <th>$6</th>
+        </tr>
+        <tr>
+          <th>Bread</th>
+          <th>4</th>
+          <th>$1</th>
+          <th>$4</th>
+        </tr>
+        <tr>
+          <th>Meat</th>
+          <th>5</th>
+          <th>$10</th>
+          <th>$50</th>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total</td>
+          <td>$60</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
