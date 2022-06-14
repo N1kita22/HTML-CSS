@@ -18,8 +18,11 @@
   opacity: 1;
   transition: width 2s, opacity 0.5s;
 }
-.rect:nth-child(2) {
+.rect:nth-child(1) {
   transition-timing-function: linear;
+}
+.rect:nth-child(2) {
+  transition-timing-function: ease;
 }
 .rect:nth-child(3) {
   transition-timing-function: ease-in;
