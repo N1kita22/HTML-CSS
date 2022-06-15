@@ -13,6 +13,7 @@
   border-radius: 10px;
   animation: move 2s;
   animation-fill-mode: forwards;
+  animation-timing-function: ease;
 }
 .block-text {
   font-family: Arial, Helvetica, sans-serif;
