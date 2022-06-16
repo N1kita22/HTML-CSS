@@ -10,7 +10,7 @@
   margin: auto;
 }
 .circle {
-  margin: auto;
+  margin: 0 auto;
   height: 50px;
   width: 50px;
   border: 4px solid lightgray;
