@@ -41,18 +41,18 @@
     border-top-color: black;
   }
   25% {
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
     border-top-color: black;
     border-right-color: black;
   }
   50% {
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
     border-top-color: black;
     border-right-color: black;
     border-bottom-color: black;
   }
   100% {
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
     border-top-color: black;
     border-right-color: black;
     border-bottom-color: black;
