@@ -8,6 +8,8 @@
 }
 .spinner {
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .circle {
   margin: 0 auto;
