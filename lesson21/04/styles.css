@@ -31,9 +31,6 @@ h1 {
   padding: 0.5em;
 }
 .nav-list {
-  line-height: 1.75em;
-}
-.nav-list {
   padding: 0;
   list-style: none;
 }
@@ -60,6 +57,9 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 0.5em;
+}
+.units-list {
+  line-height: 1.75em;
 }
 .css-units {
   color: #8b0000;
