@@ -27,7 +27,7 @@ h1 {
   flex: 2;
 }
 .navigation {
-  width: 20%;
+  max-width: 20%;
   padding: 0.5em;
 }
 .nav-list {
@@ -55,28 +55,29 @@ h1 {
   text-overflow: ellipsis;
 }
 .section {
-  width: 60%;
+  max-width: 60%;
   font-size: 1.25em;
   display: flex;
   flex-direction: column;
+  padding: 0.5em;
 }
 .css-units {
-  border-color: #e5e5e5;
   color: #8b0000;
+  background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
 }
 .section__header {
   font-size: 5vw;
-  margin: auto;
+  margin: 0 auto;
 }
 .news {
-  width: 20%;
+  max-width: 20%;
+  padding: 0.5em;
 }
 .footer {
   width: 100%;
   background-color: #e5e5e5;
   padding: 0.5em;
   text-align: center;
-  flex: 1;
 }
