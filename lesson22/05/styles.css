@@ -66,8 +66,6 @@ h1 {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
-  position: absolute;
-  bottom: -87px;
 }
 img {
   max-width: 100%;
@@ -98,5 +96,9 @@ img {
   }
   .news {
     flex-basis: 60vw;
+  }
+  .footer {
+    position: absolute;
+    bottom: -100px;
   }
 }
