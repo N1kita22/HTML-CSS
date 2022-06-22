@@ -5,11 +5,12 @@ html {
   font-family: Verdana;
   color: #555;
 }
-
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+.main {
+  height: 100vh;
 }
 
 .header {
