@@ -78,11 +78,11 @@ img {
     display: flex;
   }
   .navigation {
-    width: 20%;
+    flex-basis: 20vw;
   }
 
   .section {
-    width: 80%;
+    flex-basis: 80vw;
   }
 }
 @media (min-width: 1200px) {
@@ -93,9 +93,9 @@ img {
     flex: 1;
   } */
   .mid-screen {
-    width: 80%;
+    flex-basis: 80vw;
   }
   .news {
-    width: 20%;
+    flex-basis: 20vw;
   }
 }
