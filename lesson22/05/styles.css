@@ -74,7 +74,7 @@ img {
 }
 
 @media (min-width: 600px) {
-  .main {
+  .mid {
     display: flex;
   }
   .navigation {
@@ -93,9 +93,9 @@ img {
     flex-basis: 20vw;
   }
   .section {
-    flex-basis: 80vw;
+    flex-basis: 60vw;
   }
   .news {
-    flex-basis: 20vw;
+    flex-basis: 65vw;
   }
 }
