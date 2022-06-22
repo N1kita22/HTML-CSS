@@ -63,14 +63,10 @@ h1 {
   margin-bottom: 8px;
 }
 .footer {
-  bottom: 0;
   width: 100%;
   background-color: #e5e5e5;
   padding: 0.5em;
   text-align: center;
-  /* this line */
-  position: fixed;
-  /* need delete */
 }
 img {
   max-width: 100%;
