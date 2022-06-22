@@ -6,11 +6,10 @@ html {
   color: #555;
 }
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
-
 .header {
   background: linear-gradient(60deg, red, orange);
   color: white;
@@ -67,6 +66,8 @@ h1 {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
+  position: absolute;
+  bottom: -87px;
 }
 img {
   max-width: 100%;
