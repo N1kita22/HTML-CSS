@@ -74,7 +74,7 @@ img {
 }
 
 @media (min-width: 600px) {
-  .mid-screen {
+  .main {
     display: flex;
   }
   .navigation {
@@ -89,10 +89,10 @@ img {
   .main {
     display: flex;
   }
-  /* .navigation {
-    flex: 1;
-  } */
-  .mid-screen {
+  .navigation {
+    flex-basis: 20vw;
+  }
+  .section {
     flex-basis: 80vw;
   }
   .news {
