@@ -4,13 +4,12 @@
 html {
   font-family: Verdana;
   color: #555;
-  font-size: 16px;
 }
 
 body {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .header {
@@ -73,31 +72,30 @@ img {
   max-width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
-/* picture {
-  display: block;
-  margin: auto;
-} */
 
 @media (min-width: 600px) {
   .mid-screen {
     display: flex;
   }
-  .section {
-    flex-basis: 80%;
-  }
   .navigation {
-    flex-basis: 20%;
+    flex: 1;
+  }
+
+  .section {
+    flex: 4;
   }
 }
-
 @media (min-width: 1200px) {
   .main {
     display: flex;
   }
+  .navigation {
+    flex: 2;
+  }
   .mid-screen {
-    flex-basis: 80%;
+    flex: 3;
   }
   .news {
-    flex-basis: 20%;
+    flex: 1;
   }
 }
