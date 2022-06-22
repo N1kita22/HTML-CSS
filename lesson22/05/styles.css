@@ -100,7 +100,6 @@ picture {
     flex-direction: row;
   }
   .news {
-    display: flex;
-    flex-direction: column;
+    width: 40%;
   }
 }
