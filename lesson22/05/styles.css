@@ -62,10 +62,11 @@ h1 {
   padding: 0.5em;
 }
 .footer {
+  display: flex;
   width: 100%;
   background-color: #e5e5e5;
   padding: 0.5em;
-  text-align: center;
+  justify-content: center;
 }
 img {
   max-width: 100%;
