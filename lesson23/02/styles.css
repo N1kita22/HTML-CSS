@@ -13,6 +13,7 @@ body {
   .container {
     display: flex;
     flex-direction: row;
+    margin: 8px;
   }
 }
 
@@ -37,6 +38,11 @@ body {
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+    margin: 8px;
+  }
+}
+@media screen and (orientation: landscape) {
+  .square {
     margin: 8px;
   }
 }

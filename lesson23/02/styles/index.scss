@@ -12,6 +12,7 @@ body {
   @include orient {
     display: flex;
     flex-direction: row;
+    margin: 8px;
   }
 }
 .square {
@@ -32,6 +33,9 @@ body {
 
   @include for-large-up {
     background-color: #c47;
+    margin: 8px;
+  }
+  @include orient {
     margin: 8px;
   }
 }
